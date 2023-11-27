@@ -5,15 +5,15 @@
 // Sum Numbers
 function sum (numbers) {
   "use strict";
-let total = 0;
+  let total = 0;
   if (numbers.length < 0)
     {
       return 0
     }
-else{
-    numbers.forEach(value => {
-    total = total+ value
-    })
-    return total
-  }
+  else{
+      numbers.forEach(value => {
+      total = total+ value
+      })
+      return total
+    }
 };
